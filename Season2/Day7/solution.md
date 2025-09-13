@@ -1,4 +1,30 @@
-# Solution: Setting Up a Self-Hosted GitHub Runner
+# Season 2 Day 7 Challenge - Solution
+
+---
+
+## Theory Answers
+
+### 1. What is a GitHub runner?
+
+A GitHub runner is basically a server that runs your GitHub Actions workflows. Think of it as a computer that automatically executes your code whenever you push changes to your repository. It can run tests, build your application, or deploy it to production.
+
+### 2. How do self-hosted runners differ from GitHub-hosted runners?
+
+GitHub-hosted runners are managed servers from GitHub - they provide the machine, but you have limited control and it costs money for private repos. Self-hosted runners are your own machines (like the EC2 instance we set up) - you manage them, but you get more control and can save money on larger projects.
+
+### 3. What security considerations should you take when using self-hosted runners?
+
+Keep your runner machine updated and secure since it can access your code. Don't use the same runner for public repositories if you're working on private projects. Make sure your EC2 security groups only allow necessary traffic, and consider using separate runners for different environments (like development vs production).
+
+### 4. How can you scale self-hosted runners?
+
+You can add more EC2 instances and set them up as additional runners. For automatic scaling, you can use AWS Auto Scaling Groups that spin up new runners when there are many workflow jobs waiting. You can also use runner labels to route different types of jobs to specific machines.
+
+### 5. Can a single self-hosted runner be used for multiple repositories? Why or why not?
+
+Yes, you can configure a single runner to work with multiple repositories in your organization. However, be careful because the runner will have access to code from all those repositories. It's often better to use separate runners for different projects to keep things isolated and secure.
+
+# Practical Challenge Solution
 
 ## Step 1: Create a Virtual Machine
 
