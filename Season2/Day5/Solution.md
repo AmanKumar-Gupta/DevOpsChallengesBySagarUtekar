@@ -11,9 +11,10 @@
 4. Invited five users.
 5. Added users to their teams.
 
-### Screenshot:
-*Invitation.png*
-*teams.png*
+
+### Screenshots:
+![Invitation](Invitation.png)
+![Teams](teams.png)
 
 ---
 
@@ -26,8 +27,9 @@
 3. Set a 7-day grace period for current members.
 4. Checked that all members have 2FA enabled.
 
+
 ### Screenshot:
-*multi-factor.png*
+![Multi-Factor](multi-factor.png)
 ---
 
 ## Task 3: Create Repository and Set Team Permissions
@@ -41,8 +43,9 @@
    - DevOps: Admin
    - QA: Read
 
+
 ### Screenshot:
-*Repo-access.png*
+![Repo Access](Repo-access.png)
 ---
 
 ## Task 4: Enable Security Features (Dependabot & Secret Scanning)
@@ -53,8 +56,9 @@
 2. Turned on Dependabot alerts and security updates.
 3. Enabled secret scanning and push protection for secrets.
 
+
 ### Screenshot:
-*Enable-Security-Features.png*
+![Enable Security Features](Enable-Security-Features.png)
 ---
 
 ## Task 5: Set Up Branch Protection Rules
@@ -70,8 +74,9 @@
    - Status checks must pass
    - Admins included
 
+
 ### Screenshot:
-*branch-protection.png*
+![Branch Protection](branch-protection.png)
 ---
 
 ## Task 6: Create CODEOWNERS File
@@ -85,8 +90,9 @@
    - Docs: All teams
 3. Committed with a clear message.
 
+
 ### Screenshot:
-*codeowner.png*
+![Codeowner](codeowner.png)
 ---
 
 ## Task 7: Test Direct Commit Restrictions
