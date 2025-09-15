@@ -108,13 +108,14 @@ ssh -i mykey.pem ubuntu@[IP-ADDRESS]
    - Deleted the second command from history
 
 **Final combined.txt contents:**
-```
-!(Azure-ubuntu1.png)
-```
 
-**Screenshot:** !(azure-ubuntu2.png)
+![Azure Ubuntu Output](Azure-ubuntu1.png)
 
-## Part 2: RHEL VM on Oracle virtual Box Scripting Task - My Results
+**Screenshot:**
+
+![Azure Ubuntu SSH](azure-ubuntu2.png)
+
+## Part 2: RHEL VM on Oracle VirtualBox Scripting Task - My Results
 
 ### Task Overview
 Successfully created and ran a monitoring script using Vim on the RHEL virtual machine.
@@ -154,10 +155,9 @@ cat sys_250915.txt
 ```
 
 **Script Output:**
-```
-!(Oraclevm.png)
-!(oracle2.png)
-```
+
+![Oracle VM Screenshot](Oraclevm.png)
+![Oracle VM Output](oracle2.png)
 
 8. **Created Alias:**
 ```bash
