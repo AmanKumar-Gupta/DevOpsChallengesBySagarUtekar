@@ -1,4 +1,4 @@
-# Season 2 Day 7 Challenge - Solution
+# Season 2 Day 10 Challenge - Solution
 
 ---
 
