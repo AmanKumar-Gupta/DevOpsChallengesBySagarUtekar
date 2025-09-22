@@ -70,8 +70,6 @@ sudo useradd appsvc
 
 # Tried to access → Permission denied (expected!)
 
-![step4](step4.png)
-
 # Fixed it:
 sudo chown -R appsvc:appsvc /opt/app
 sudo find /opt/app -type d -exec chmod 750 {} \;
@@ -84,6 +82,7 @@ stat /opt/app/config/app.env
 
 > Saved commands + output to `~/perm-lab/appfix.md`
 
+![step4](step4.png)
 ![step5](step5.png)
 
 ### 💡 Key Things to Remember:
@@ -115,7 +114,7 @@ namei -l /opt/app/config/app.env
 ```
 
 ![step6](step6.png)
-![step7](task7.png)
+![step7](step7.png)
 
 ---
 ## 🎉 Challenge Completed.
